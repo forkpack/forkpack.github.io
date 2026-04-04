@@ -1,6 +1,6 @@
 ---
 title: "Forkpack — виджеты для сайта в одном пакете"
-date: 2026-04-05
+date: 2026-04-04
 draft: false
 slug: "forkpack-widget-pack"
 tags: ["виджеты", "frontend"]
