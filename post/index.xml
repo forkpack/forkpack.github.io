@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on forkpack</title><link>https://forkpack.github.io/post/</link><description>Recent content in Posts on forkpack</description><generator>Hugo -- gohugo.io</generator><language>ru-ru</language><lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://forkpack.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Forkpack — виджеты для сайта в одном пакете</title><link>https://forkpack.github.io/p/forkpack-widget-pack/</link><pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate><guid>https://forkpack.github.io/p/forkpack-widget-pack/</guid><description>&lt;p&gt;Forkpack — это готовый пакет виджетов, который можно быстро подключить к любому сайту без долгой разработки интерфейсов с нуля.
+С его помощью можно добавить акции, политику cookies, новости, статистику и другую интерактивность одной инструкцией, сохранив время и силы на более важные задачи.&lt;/p&gt;
+&lt;h2 id="что-из-себя-представляет-forkpack"&gt;Что из себя представляет Forkpack
+&lt;/h2&gt;&lt;p&gt;Forkpack предлагает набор стилизованных виджетов, которые подключаются к сайту через один скрипт и настраиваются через панель.
+Пакет предназначен как для лендингов, так и для маркетплейсов, сервисов и блогов, где важна скорость вывода повторяющихся UI‑элементов.&lt;/p&gt;
+&lt;h2 id="основные-возможности"&gt;Основные возможности
+&lt;/h2&gt;&lt;p&gt;В пакете Forkpack встроены готовые виджеты, например:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Уведомления о скидках и акциях.&lt;/li&gt;
+&lt;li&gt;Блок политики конфиденциальности и управления cookies.&lt;/li&gt;
+&lt;li&gt;Лента новостей и обновлений системы.&lt;/li&gt;
+&lt;li&gt;Статистика использования сервиса и активности пользователей.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Также обещается появление новых виджетов, за счёт которых можно будет расширять UX без отдельной разработки.&lt;/p&gt;
+&lt;h2 id="тарифы-и-доступ"&gt;Тарифы и доступ
+&lt;/h2&gt;&lt;p&gt;Forkpack предлагает несколько вариантов подключения:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Бесплатный тариф с базовыми функциями и ограничениями.&lt;/li&gt;
+&lt;li&gt;Полный тариф с 7‑дневным пробным периодом и доступом ко всем 5 виджетам.&lt;/li&gt;
+&lt;li&gt;Pro‑дополнения с AI‑аналитикой и расширенными интеграциями.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;API‑ключ, который нужен для активации полного функционала, доступен только для пользователей Полного тарифа и появляется в личном кабинете после регистрации и старта пробного периода.&lt;/p&gt;
+&lt;h2 id="как-подключить-виджеты"&gt;Как подключить виджеты
+&lt;/h2&gt;&lt;p&gt;Подключение включает всего 4 шага:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Зарегистрироваться и выбрать тариф (бесплатный или Полный с пробным периодом).&lt;/li&gt;
+&lt;li&gt;Скопировать скрипт вида:
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;lt;!-- forkpack --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;type&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;module&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://unpkg.com/forkpack@0.1.0-beta.0/cdn/fp.umd.min.js?module&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;и вставить его перед закрывающим &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; на сайте.&lt;br&gt;
+3. Для Полного тарифа активировать виджеты через полученный API‑ключ.&lt;br&gt;
+4. Настроить внешний вид и поведение виджетов под дизайн вашего проекта.```&lt;/p&gt;
+&lt;p&gt;Изменения в конфигурации применяются мгновенно, без пересборки или деплоя статических страниц.&lt;/p&gt;
+&lt;h2 id="адаптивность-и-удобство"&gt;Адаптивность и удобство
+&lt;/h2&gt;&lt;p&gt;Все виджеты Forkpack адаптивны и автоматически подстраиваются под размер экрана: на мобильных устройствах они переходят в компактный режим.
+Такой подход особенно удобен для блогов на Hugo, статических сайтов и маркетплейсов, где важно не ломать верстку лишним кастом‑кодом.
+Если вы часто добавляете одинаковые блоки (скидки, политика, новости) на разные страницы, Forkpack может заметно сократить время правок и упростить рутинные задачи.&lt;/p&gt;</description></item></channel></rss>
